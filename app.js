@@ -52,7 +52,7 @@ console.log (numeroSecreto);
   }
  }
  function condicionesIniciales () {
-   asignarTextoElemento('h1','Juego dedl número secreto')
+   asignarTextoElemento('h1','Juego del número secreto')
    asignarTextoElemento('p', `Ingrese su numero perrin del 1 al ${numeroMaximo}`)
    numeroSecreto = generarNumeroSecreto();
    intentos = 1;
